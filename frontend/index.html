@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Gerenciador de Tarefas</h2>
-        <input id="task-title" type="text" placeholder="Digite a tarefa" />
-        <button id="add-task-btn" class="add-task-btn">Adicionar Tarefa</button>
+<div class="main-container">
+    <div class="add-list">
+        <input id="task-title" type="text" placeholder="Type a task" />
+        <button id="add-task-btn" class="add-task-btn">Add New Todo</button>
+    </div>
+    <div class="todo-container">
+        <h2>My Todos</h2>
         <div class="todo-list-container">
             <ul id="task-list" class="task-list"></ul>
         </div>
     </div>
-    <script src="script.js" defer></script>
+</div>
+<script src="script.js" defer></script>
 </body>
+
 </html>
