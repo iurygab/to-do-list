@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background-color: #1e2a38;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Botão Add New Todo */
+.add-task-btn {
+    background-color: #00a881;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.add-task-btn:hover {
+    background-color: #00806d;
+}
+
+/* Lista de tarefas */
+.todo-list-container {
+    background-color: #2b3a4b;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Tarefa individual */
+.task-item {
+    background-color: #5c6b7d;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.task-item:hover {
+    background-color: #4a596e;
+}
+
+/* Botões de ação */
+.edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    color: #00a881;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    color: #00d29b;
+}
+
+/* Lista */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
